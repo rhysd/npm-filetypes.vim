@@ -7,7 +7,7 @@ Syntax Highlight for npm-debug.log
 
 ## Installation
 
-Copy all directories in repo to your `.vim` dicrectory.  If you use some plugin manager, please follow the instruction of it.
+Copy all directories in this repo to your `.vim` directory.  If you use some plugin manager, please follow the instruction of it.
 
 ## License
 
@@ -30,5 +30,4 @@ PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
 THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-<`0`>
 ```
