@@ -3,11 +3,11 @@ if exists('b:current_syntax')
 endif
 
 syn match npmDebugLogID "^\d\+" display
-syn match npmDebugLogInfo "\%(^\d\+ \)\@<=info\>" display
+syn match npmDebugLogInfo "\%(^\d\+ \)\@<=\%(info\|http\)\>" display
 syn match npmDebugLogVerbose "\%(^\d\+ \)\@<=verbose\>" display
 syn match npmDebugLogError "\%(^\d\+ \)\@<=error\>" display
 syn match npmDebugLogStack "\%(^\d\+ \h\w\+ \)\@<=stack .\+$" display
-syn region npmDebugLogString start="'" skip="\\'" end="'" display
+syn region npmDebugLogString start="\s\zs'" skip="\\'" end="'" display
 syn region npmDebugLogCmd start="`" skip="\\`" end="`" display
 
 hi def link npmDebugLogID PreProc
