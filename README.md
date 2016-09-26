@@ -3,8 +3,9 @@ npm-filetypes.vim
 
 Vim filetype plugin for [npm](https://www.npmjs.com/) package manager. Currently only supports some syntax highlights. If you have some feature request, please create an issue in [GitHub repository](https://github.com/rhysd/npmrc.vim).
 
-- Highlight npm-debug.log (Debug log dumped when `npm` raise an error)
+- Highlight `npm-debug.log` (Debug log dumped when `npm` raise an error)
 - Highlight [`~/.npmrc`](https://docs.npmjs.com/files/npmrc)
+- Highlight [`.npmignore`](https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package) as `conf` filetype
 
 ## Installation
 
