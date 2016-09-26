@@ -1,5 +1,5 @@
-npmrc.vim
-=========
+npm-filetypes.vim
+=================
 
 Vim filetype plugin for [npm](https://www.npmjs.com/) package manager. Currently only supports some syntax highlights. If you have some feature request, please create an issue in [GitHub repository](https://github.com/rhysd/npmrc.vim).
 
