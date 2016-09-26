@@ -1,6 +1,8 @@
 Syntax Highlight for npm-debug.log
 ==================================
 
+**THIS PLUGIN IS DEPRECATED!** Please use [npm-filetypes.vim](https://github.com/rhysd/npm-filetypes.vim) instead.
+
 | Before | After |
 |--------|-------|
 | ![before](https://raw.githubusercontent.com/rhysd/ss/master/npm-debug-log.vim/disabled.png) | ![after](https://raw.githubusercontent.com/rhysd/ss/master/npm-debug-log.vim/enabled.png) |
