@@ -3,8 +3,8 @@ if exists('b:current_syntax')
 endif
 
 syn match npmrcComment "^//.*$" display
-syn match npmrcEntry "^\w\+=.*$" contains=npmrcEntryKey,npmrcEntryValue,npmrcBooleanValue display
-syn match npmrcEntryKey "^\w\+\ze=" contained containedin=npmrcEntry display
+syn match npmrcEntry "^[[:alnum:]-_]\+=.*$" contains=npmrcEntryKey,npmrcEntryValue,npmrcBooleanValue display
+syn match npmrcEntryKey "^[[:alnum:]-_]\+\ze=" contained containedin=npmrcEntry display
 syn match npmrcEntryValue "=\zs.*$" contained containedin=npmrcEntry display
 syn match npmrcBooleanValue "=\zs\%(true\|false\)$" contained containedin=npmrcEntry
 
